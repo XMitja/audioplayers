@@ -4,7 +4,10 @@ publish_to: none
 
 dependencies:
   audioplayers:
-    path: ../
+    git:
+      url: https://github.com/XMitja/audioplayers.git
+      ref: local_paths
+      path: packages/audioplayers
   flutter:
     sdk: flutter
   http: ^0.13.1
